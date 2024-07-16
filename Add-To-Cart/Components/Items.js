@@ -1,16 +1,23 @@
 import React, { useState } from "react";
-import logo from "./logo.jpg";
+import logo1 from "./assets/01.jpg";
+import logo2 from "./assets/02.jpg";
+import logo3 from "./assets/03.jpg";
+import logo4 from "./assets/04.jpg";
+import logo5 from "./assets/05.jpg";
+import logo6 from "./assets/06.jpg";
+import logo7 from "./assets/07.jpg";
+import logo8 from "./assets/08.jpg";
 
 export default function Items(probs) {
   let [data, setData] = useState([
-    { name: "ASIAN Men's Thar-13 Sneaker", price: 99, image: logo },
-    { name: "ASIAN Men's AIRWEAVE-02 Sports Shoes", price: 91, image: logo },
-    { name: "Campus Men's Sneakers", price: 89, image: logo },
-    { name: "Campus Men's OG-03 Sneakers", price: 39, image: logo },
-    { name: "White Casual Sneaker", price: 69, image: logo },
-    { name: "MACTREE Men's Mild Top Ankle Boots", price: 89, image: logo },
-    { name: "U.S. POLO ASSN. Men's panal Sneakers", price: 59, image: logo },
-    { name: "ASIAN Men's Sneakers", price: 79, image: logo },
+    { name: "Nike Airforce Shoe",         price: 99, image: logo1 },
+    { name: "White Nike Air Force",       price: 91, image: logo2 },
+    { name: "Nike high top Sneaker",      price: 89, image: logo3 },
+    { name: "White Nike air force Shoe",  price: 39, image: logo4 },
+    { name: "White and Red Nike Shoe",    price: 69, image: logo5 },
+    { name: "All Black Nike Shoe",        price: 89, image: logo6 },
+    { name: "U.S. POLO Red Sneakers",     price: 59, image: logo7 },
+    { name: "White Adidas Shoe",          price: 79, image: logo8 }
   ]);
 
   const [cart, setCart] = useState([]);
